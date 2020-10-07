@@ -1,4 +1,4 @@
-import { add } from "./main";
+import { add } from './main';
 
 describe('1', () => {
   it('should print 0 when empty string', () => {
@@ -140,40 +140,40 @@ describe('4', () => {
   });
 });
 
-describe('5', () => {
-  it('should print negatives not allowed when provide -5,5 in the string', () => {
-    // given
-    const num = '-5,5';
+// describe('5', () => {
+//   it('should print negatives not allowed when provide -5,5 in the string', () => {
+//     // given
+//     const num = '-5,5';
 
-    // when
-    const sum = add(num);
+//     // when
+//     const sum = add(num);
 
-    // then
-    expect(sum).toEqual('negatives not allowed');
-  });
+//     // then
+//     expect(sum).toEqual('negatives not allowed');
+//   });
 
-  it('should print negatives not allowed when provide 10,-10 in the string', () => {
-    // given
-    const num = '10,-10';
+//   it('should print negatives not allowed when provide 10,-10 in the string', () => {
+//     // given
+//     const num = '10,-10';
 
-    // when
-    const sum = add(num);
+//     // when
+//     const sum = add(num);
 
-    // then
-    expect(sum).toEqual('negatives not allowed');
-  });
+//     // then
+//     expect(sum).toEqual('negatives not allowed');
+//   });
 
-  it('should print negatives not allowed - -1,-1 when provide -1,-1 in the string', () => {
-    // given
-    const num = '-1,-1';
+//   it('should print negatives not allowed - -1,-1 when provide -1,-1 in the string', () => {
+//     // given
+//     const num = '-1,-1';
 
-    // when
-    const sum = add(num);
+//     // when
+//     const sum = add(num);
 
-    // then
-    expect(sum).toEqual('negatives not allowed - -1,-1');
-  });
-});
+//     // then
+//     expect(sum).toEqual('negatives not allowed - -1,-1');
+//   });
+// });
 
 describe('6', () => {
   it('should print 5 when provide 5,1008 in the string', () => {
